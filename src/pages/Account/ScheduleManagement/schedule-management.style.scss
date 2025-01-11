@@ -1,0 +1,55 @@
+.rmdp-top-class {
+  flex-grow: 1;
+}
+
+.rmdp-calendar {
+  display: flex !important;
+  flex-grow: 1 !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+.rmdp-week {
+  height: 45px !important;
+}
+
+.rmdp-day-picker {
+  font-size: 20px !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.rmdp-day-picker div {
+  width: 100% !important;
+}
+
+.rmdp-panel.right {
+  width: 20%;
+}
+
+.rmdp-day span {
+  font-size: 16px !important;
+  width: 44px !important;
+  height: 44px !important;
+  margin: 0 auto !important;
+}
+
+@media screen and (max-width: 768px) {
+  .rmdp-day span {
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  .rmdp-header-plugin.left {
+    display: none;
+  }
+}
+
+.rmdp-toolbar {
+  padding: 8px !important;
+}
+
+.rmdp-toolbar div {
+  font-size: 16px !important;
+  padding: 8px !important;
+}

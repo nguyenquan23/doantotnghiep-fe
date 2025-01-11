@@ -1,0 +1,1 @@
+export const admimMetaMaskWalletAddress = "0x80C7b8fcCA7bDF81Fb8993c1D5Ee992A87EBa470"

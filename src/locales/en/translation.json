@@ -1,0 +1,571 @@
+{
+  "pages": {
+    "homepage": {
+      "title": "Make memories on your next trip",
+      "allTours": "Unforgettable experiences around Vietnam",
+      "nearestTours": "Tours near your location",
+      "popularLocations": "Awe-inspiring destinations"
+    },
+    "authLayout": {
+      "title": "Make memories on your next trip",
+      "signIn": "Sign in",
+      "signUp": "Sign up",
+      "email": "Email",
+      "password": "Password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "login": {
+        "haveAccountQuestion": "Don't have an account?",
+        "forgetPassword": "Forget password?",
+        "orContinue": "or continue with"
+      },
+      "register": {
+        "alreadyHaveAccountQuestion": "Already have an account?"
+      },
+      "resetPassword": {
+        "resetPassword": "Reset password",
+        "resetPasswordDescription": "Enter the email address associated with your account and we'll send you a link to reset your password.",
+        "sendResetLink": "Send reset link",
+        "sendResetLinkSuccess": "The password reset link has been sent to your email.",
+        "emailNotSignUp": "Email has not been sign up"
+      },
+      "changePassword": {
+        "changePassword": "Change password",
+        "changePasswordSuccess": "Change password successfully."
+      }
+    },
+    "search": {
+      "sort": "Sort",
+      "ratingLTH": "Rating - Low to high",
+      "ratingHTL": "Rating - High to low",
+      "searchTours": {
+        "title": "Things to do in",
+        "allTours": "All tours",
+        "price": "Price",
+        "categories": "Categories",
+        "filterByPriceRange": "Filter by price range",
+        "minPrice": "Min price",
+        "maxPrice": "Max price",
+        "toursFound": "tour(s) found."
+      },
+      "searchGuides": {
+        "guidesMatch": "Local guides match",
+        "allGuides": "All guides",
+        "guidesFound": "guide(s) found."
+      }
+    },
+    "tourDetails": {
+      "addReviewSuccess": "Add review of tour successfully.",
+      "updateReviewSuccess": "Update review of tour successfully.",
+      "deleteReviewSuccess": "Delete review of tour successfully.",
+      "reviews": "reviews",
+      "activityProvider": "Activity provider",
+      "aboutThisActivity": "About this activity",
+      "cancellation": "Cancellation",
+      "cancel7daysBefore": "If canceled within 1 hour after booking or more than 7 days before Activity: full refund",
+      "cancel1daysBefore": "If canceled less than 7 days and more than 1 day before Activity: 50% refund",
+      "cancel24hours": "If canceled 24 hours or less before Activity or in case of no-show: no refund",
+      "group": "Group",
+      "mainStops": "Main stops",
+      "itinerary": "Itinerary",
+      "startingLocation": "Starting location",
+      "finishAt": "Finish at",
+      "duration": "Duration",
+      "transportation": "Transportation",
+      "service": "Service",
+      "localCashNeeded": "Local cash needed",
+      "selectParticipantsDate": "Select participants & date",
+      "checkAvailability": "Check availability",
+      "customerReviews": "Customer reviews",
+      "customerReviewsTooltip": "All reviews are from verified customers who purchased the activity. Reviews can only be submitted after the activity takes place.",
+      "overallRating": "Overall rating",
+      "from": "From",
+      "perPerson": "per person",
+      "limitParticipants": "Limit to {{limitTraveler}} participants",
+      "day(s)": "day(s)",
+      "hour(s)": "hour(s)",
+      "baseOnReviews": "Based on {{totalReviews}} review",
+      "filter": "Filter",
+      "allStarRatings": "All star ratings",
+      "noGuideReviews": "No guide reviews available.",
+      "stars": "stars",
+      "sort": "Sort",
+      "sortBy": "Sort by",
+      "startFrom": "Start from",
+      "guide": "Guide",
+      "meetAt": "Meet at",
+      "selectTime": "Select a starting time of",
+      "selectATime": "Select a time",
+      "person": "Person",
+      "cancelUp": "Cancel up within 1 hour after booking or more than 7 days in advance for a full refund",
+      "totalPrice": "Total price",
+      "allTaxesAndFees": "All taxes and fees included",
+      "bookNow": "Book now",
+      "addToCart": "Add to cart"
+    },
+    "profile": {
+      "profileDetails": "Profile Details",
+      "fullName": "Full name",
+      "dateOfBirth": "Date of birth",
+      "contactDetails": "Contact Details",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "deleteAccount": "Delete account",
+      "save": "Save",
+      "deleteAccountConfirm": "Delete account confirmation",
+      "deleteAccountConfirmQuestion": "Are you sure want to delete this account?"
+    },
+    "changePassword": {
+      "changePassword": "Change Password",
+      "password": "Password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "save": "Save"
+    },
+    "guideApplication": {
+      "title": "Join us as a local guide",
+      "profileDetails": "Profile Details",
+      "fullName": "Full name",
+      "dateOfBirth": "Date of Birth",
+      "contactDetails": "Contact Details",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "password": "Password",
+      "experience": "Experience",
+      "offerTransportationQuestion": "What type(s) of transportation method will you offer in your tours?",
+      "offerTransportationNone": "None (e.g., walking tour, public transportation)",
+      "offerTransportationMyOwn": "My own vehicle and I'm the main driver",
+      "offerTransportationRental": "A rental vehicle and I'm the main driver",
+      "offerTransportationHired": "Hired driver in a private vehicle",
+      "licensedTourGuideQuestion": "Are you a licensed tour guide?",
+      "licensedTourGuideYes": "Yes, I'm a licensed tour guide",
+      "licensedTourGuideNo": "No, I'm a passionate local guide",
+      "licenseImages": "License images",
+      "uploadImages": "Upload images",
+      "upTo5Images": "Up to 5 images",
+      "yearsOfExperience": "Years of experience",
+      "biography": "Biography",
+      "info": "Info",
+      "receiveEmail": "You will receive an email once your registration is accepted.",
+      "submit": "Submit"
+    },
+    "tourRequestManagement": {
+      "tourRequestManagement": "Tour Request Management",
+      "destination": "Destination",
+      "duration": "Duration",
+      "unit": "Unit",
+      "maxPrice": "Max price",
+      "numberOfTravelers": "Number of travelers",
+      "transportation": "Transportation",
+      "message": "Message",
+      "day(s)": "day(s)",
+      "hour(s)": "hour(s)",
+      "addTour": "Add tour",
+      "selfDenied": "Self denied",
+      "cancel": "Cancel",
+      "accept": "Accept",
+      "reject": "Reject",
+      "edit": "Edit",
+      "adminDenied": "Admin denied",
+      "guideDenied": "Guide denied",
+      "selfCanceled": "Self canceled",
+      "guideAccepted": "Guide accepted",
+      "awaitingAdmin": "Awaiting admin",
+      "noRequest": "No request data available."
+    },
+    "tourManagement": {
+      "tourManagement": "Tour Management",
+      "createTour": "Create tour",
+      "updateTour": "Update tour",
+      "id": "id",
+      "name": "Name",
+      "transportation": "Transportation",
+      "trans": "Transportation",
+      "duration": "Duration",
+      "unit": "Unit",
+      "price": "Price",
+      "status": "Status",
+      "actions": "Actions",
+      "day(s)": "day(s)",
+      "hour(s)": "hour(s)",
+      "rowsPerPage": "Rows per page",
+      "service": "Service",
+      "estimatedLocalCashNeeded": "Estimated local cash needed",
+      "pricePerTraveler": "Price per traveler",
+      "limitTraveler": "Limit traveler",
+      "categories": "Categories",
+      "itinerary": "Itinerary",
+      "description": "Description",
+      "selectSequentialLocations": "Select sequential locations",
+      "selectSequentialLocationsToolTip": "By default, the location will be named based on the place you click on the map. If you want to change it, click 'Confirm locations'",
+      "confirmLocations": "Confirm locations",
+      "includeService": "Include service",
+      "selectImages": "Select images",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "selectStartTime": "Select start time(s)",
+      "selectStartTimeToolTip": "'Tours with a duration of 5 hours or less can have multiple start times, unless there is only one start time'",
+      "save": "Save",
+      "add": "Add",
+      "hereAreDefault": "Here are default location names, you can change these names by changing on the inputs & click 'Save' button"
+    },
+    "bookingManagement": {
+      "bookingManagement": "Booking Management",
+      "noBooking": "No bookings data available."
+    },
+    "scheduleManagement": {
+      "scheduleManagement": "Schedule Management",
+      "addBusyDay": "Add busy day",
+      "dayOff": "Day off",
+      "bookedByDay": "Booked by day",
+      "bookedByHour": "Booked by hour",
+      "delete": "Delete",
+      "clearAll": "Clear all",
+      "add": "Add",
+      "selectYourBusyDay": "Select your busy day",
+      "selectedDays": "Selected day(s)",
+      "upcoming": "Upcoming",
+      "past": "Past"
+    },
+    "salesReport": {
+      "salesReport": "Sales Report",
+      "selectYear": "Select year",
+      "revenueByYear": "Revenue by year",
+      "numberOfBookings": "Number of bookings",
+      "numberOfBookingsByYear": "Number of bookings by year",
+      "revenue": "Revenue ($)",
+      "name": "Name",
+      "limitTravelers": "Limit traveler(s)",
+      "totalRevenue": "Total revenue",
+      "overallRating": "Overall rating",
+      "totalBooked": "Total booked"
+    },
+    "invoices": {
+      "myInvoices": "My invoices",
+      "signInFirst": "You have to sign in first to see your invoices.",
+      "noData": "No invoice data available.",
+      "passengerInformation": "Passenger Information",
+      "name": "Name",
+      "invoice": "Invoice",
+      "email": "Email",
+      "phoneNumber": "Phone number",
+      "refund": "Refund",
+      "REFUNDED": "Refunded",
+      "viewDetails": "View Details",
+      "hideDetails": "Hide Details",
+      "toursInformation": "Tour(s) Information",
+      "refundSuccessful": "Refund Successful",
+      "confirmCancel": "Confirm cancel",
+      "areYouSure": "Are you sure you want to cancel and refund this tour?",
+      "refundFail": "Cancellation and refund failure."
+    },
+    "bookings": {
+      "myBookings": "My bookings",
+      "all": "All",
+      "upcomingBookings": "Upcoming bookings",
+      "pastBookings": "Past bookings",
+      "signInFirst": "You have to sign in first to see your bookings."
+    },
+    "wishlist": {
+      "wishlist": "Wishlist",
+      "signInFirst": "You have to sign in first to see your wishlist.",
+      "noData": "No wishlist data available."
+    },
+    "cart": {
+      "shoppingCart": "Shopping cart",
+      "total": "Total",
+      "items": "item(s)",
+      "allTaxesFees": "All taxes and fees included",
+      "goToCheckout": "Go to checkout",
+      "freeCancellation": "Free cancellation",
+      "within": "Within 1 hour after booking or more than 7 days before activity",
+      "whyBook": "Why book with us?",
+      "securePayment": "Secure payment",
+      "noHiddenCosts": "No hidden costs",
+      "support247": "24/7 customer support",
+      "save": "Save",
+      "cancel": "Cancel",
+      "signInFirst": "You have to sign in first to see your cart.",
+      "noData": "No cart data available."
+    },
+    "checkout": {
+      "cart": "Cart",
+      "checkout": "Checkout",
+      "orderSummary": "Order summary",
+      "passengerInformation": "Passenger Information",
+      "fullName": "Full name",
+      "phoneNumber": "Phone number",
+      "email": "Email",
+      "save": "Save",
+      "total": "Total",
+      "items": "item(s)",
+      "allTaxesFees": "All taxes and fees included"
+    },
+    "bookingSuccess": {
+      "bookingSuccess": "Booking Success",
+      "moreInformation": "For more information, please refer to confirmation email, sent to your mailbox!",
+      "passengerInformation": "Passenger Information",
+      "toursInformation": "Tour(s) Information",
+      "paymentInformation": "Payment Information",
+      "total": "Total",
+      "tourName": "Tour name",
+      "startDate": "Start date",
+      "numberOfTravelers": "Number of travelers",
+      "price": "Price",
+      "trip": "Trip"
+    },
+    "bookingFail": {
+      "yourPaymentFailed": "Your payment failed",
+      "tryLater": "There was an issue with your payment. Please try again later.",
+      "goHome": "Go home"
+    },
+    "guideDetails": {
+      "fullName": "Full name",
+      "dateOfBirth": "Date of birth",
+      "address": "Address",
+      "phoneNumber": "Phone number",
+      "email": "Email",
+      "languageSkills": "Language skills",
+      "biography": "Biography",
+      "requestATour": "Request a tour",
+      "reviews": "review(s)",
+      "tours": "tour(s)",
+      "personalInformation": "Personal information",
+      "skillsCredentials": "Skills & Credentials"
+    },
+    "tourRequestForm": {
+      "tourRequestForm": "Tour request form",
+      "destination": "Destination",
+      "transportation": "Transportation",
+      "duration": "Duration",
+      "unit": "Unit",
+      "maxPricePerTraveler": "Max price per traveler",
+      "numberOfTravelers": "Number of travelers",
+      "message": "Message",
+      "cancel": "Cancel",
+      "saveDraft": "Save draft",
+      "submit": "Submit"
+    },
+    "tourList": {
+      "tourList": "Tour List",
+      "name": "Name",
+      "guide": "Guide",
+      "address": "Address",
+      "duration": "Duration",
+      "unit": "Unit",
+      "price": "Price",
+      "limitTravelers": "Limit traveler(s)",
+      "pricePerTraveler": "Price per traveler"
+    },
+    "guideConfirmation": {
+      "name": "Name",
+      "email": "Email",
+      "address": "Address",
+      "experience": "Experience",
+      "transportation": "Transportation"
+    },
+    "salesReportOfTours": {
+      "salesReportOfTours": "Sales Report of Tours",
+      "name": "Name",
+      "totalTravelers": "Total Traveler(s)",
+      "revenue": "Revenue",
+      "selectYear": "Select year",
+      "revenueByYear": "Revenue by year",
+      "numberOfBookings": "Number of bookings",
+      "numberOfBookingsByYear": "Number of bookings by year",
+      "revenue$": "Revenue ($)"
+    },
+    "salesReportOfGuide": {
+      "salesReportOfGuide": "Sales Report of Guide",
+      "name": "Name",
+      "email": "Email",
+      "address": "Address",
+      "rating": "Rating",
+      "totalBookings": "Total booking(s)",
+      "totalTravelers": "Total Traveler(s)",
+      "revenue": "Revenue",
+      "top5Guide": "Top 5 most booking guides"
+    }
+  },
+  "components": {
+    "profileMenu": {
+      "becomeAGuide": "Become a guide",
+      "signIn": "Sign in",
+      "signUp": "Sign up",
+      "settings": "Settings",
+      "management": "Management",
+      "logOut": "Log out"
+    },
+    "searchBar": {
+      "tour": "Tour",
+      "guide": "Guide",
+      "searchTours": "Search tours",
+      "searchGuides": "Search guides"
+    },
+    "footer": {
+      "contactInfo": "Contact information",
+      "headOffice": "Head office",
+      "email": "Email",
+      "hotline": "Hotline",
+      "subscribeUs": "Subscribe us",
+      "getLatest": "To get the latest news and promotion!",
+      "enterEmail": "Enter your email",
+      "subscribe": "Subscribe",
+      "followUs": "Follow us on social media",
+      "policy": "Policy",
+      "bookingPolicy": "Bookinbg policy",
+      "customerRight": "Customer's rights",
+      "privacyPolicy": "Privacy policy",
+      "baggageRegulations": "Baggage regulations",
+      "feq": "Frequently asked questions"
+    },
+    "tourCard": {
+      "by": "by",
+      "day(s)": "day(s)",
+      "hour(s)": "hour(s)",
+      "reviews": "reviews",
+      "fromPerPerson": "From ${{price}} per person",
+      "signInFirst": "Please sign in first.",
+      "removeWishlistSuccess": "Remove tour from wishlist successfully.",
+      "addWishlistSuccess": "Add tour to wishlist successfully."
+    },
+    "confirmDialog": {
+      "cancel": "Cancel",
+      "ok": "OK"
+    },
+    "accountSideNav": {
+      "profile": "Profile",
+      "password": "Password"
+    },
+    "managementSideNav": {
+      "tourRequestManagement": "Tour Request Management",
+      "tourManagement": "Tour Management",
+      "bookingManagement": "Booking Management",
+      "scheduleManagement": "Schedule Management",
+      "salesReport": "Sales Report"
+    },
+    "bookingSummaryCard": {
+      "providedBy": "Provided by",
+      "viewDetails": "View Details",
+      "hideDetails": "Hide Details",
+      "persons": "person(s)"
+    },
+    "notifications": {
+      "notifications": "Notifications",
+      "noNotificationsYet": "No notifications yet",
+      "comebackLater": "Come back later"
+    },
+    "header": {
+      "wishlist": "Wishlist",
+      "cart": "Cart",
+      "bookings": "Bookings",
+      "invoices": "Invoices",
+      "notifications": "Notifications"
+    },
+    "guideCard": {
+      "from": "From"
+    },
+    "adminDrawer": {
+      "tourManagement": "Tour Management",
+      "tourList": "Tour List",
+      "tourConfirmation": "Tour Confirmation",
+      "guideManagement": "Guide Management",
+      "guideConfirmation": "Guide Confirmation",
+      "salesReport": "Sales Report",
+      "tour": "Tour",
+      "guide": "Guide"
+    },
+    "rightDrawer": {
+      "profile": "Profile",
+      "becomeAGuide": "Become a guide",
+      "signIn": "Sign in",
+      "signUp": "Sign up",
+      "settings": "Settings",
+      "management": "Management",
+      "logOut": "Log out",
+      "wishlist": "Wishlist",
+      "cart": "Cart",
+      "bookings": "Bookings",
+      "invoices": "Invoices"
+    },
+    "tourDetailsDialog": {
+      "tourDetails": "Tour Details",
+      "address": "Address",
+      "guide": "Guide",
+      "startTimes": "Start time(s)",
+      "pricePerTraveler": "Price per traveler",
+      "duration": "Duration",
+      "transportation": "Transportation",
+      "includeServices": "Include services",
+      "estimatedLocalCashNeeded": "Estimated local cash needed",
+      "limitTravelers": "Limit traveler(s)",
+      "categories": "Categories",
+      "itinerary": "Itinerary",
+      "description": "Description",
+      "images": "Image(s)",
+      "day(s)": "day(s)",
+      "hour(s)": "hour(s)",
+      "deny": "Deny",
+      "accept": "Accept",
+      "areYouSure": "Are you sure want to {{action}} this tour?"
+    },
+    "confirmPopper": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "guideDetailsDialog": {
+      "guideDetails": "Guide Details",
+      "name": "Name",
+      "address": "Address",
+      "experience": "Experience",
+      "phoneNumber": "Phone number",
+      "dateOfBirth": "Date of birth",
+      "transportation": "Transportation",
+      "biography": "Biography",
+      "years": "year(s)",
+      "deny": "Deny",
+      "accept": "Accept",
+      "areYouSure": "Are you sure want to {{action}} this guide?",
+      "reason": "Reason",
+      "images": "Image(s)"
+    }
+  },
+  "enums": {
+    "sortReview": {
+      "MOST_RECENT": "Most recent",
+      "HIGHEST_RATED": "Highest rated",
+      "LOWEST_RATED": "Lowest rated"
+    },
+    "userRole": {
+      "GUIDER": "guider",
+      "TRAVELER": "traveler",
+      "ADMIN": "admin"
+    },
+    "statusRequest": {
+      "PENDING": "Pending",
+      "ACCEPTED": "Accepted",
+      "DENIED": "Denied",
+      "DONE": "Done",
+      "CANCELED": "Canceled",
+      "DRAFT": "Draft"
+    },
+    "tourStatus": {
+      "PENDING": "Pending",
+      "DENY": "Deny",
+      "ACCEPT": "Accept"
+    },
+    "transportation": {
+      "BUS": "Bus",
+      "BICYCLE": "Bicycle",
+      "BOAT": "Boat",
+      "CAR": "Car",
+      "LIMOUSINE": "Limousine",
+      "MINIVAN": "Minivan",
+      "MOTORCYCLE": "Motorcycle",
+      "TRAIN": "Train",
+      "WALKING": "Walking"
+    }
+  }
+}
