@@ -156,8 +156,8 @@ const PaymentMethod: React.FC<Props> = ({ passengerInfo, isDisplaySaveButton, bo
   return (
     <>
       <div className='mt-4 rounded-lg border-2 p-4 shadow-none'>
-        <h3 className='pb-4'>Payment method</h3>
-        <div className='grid grid-cols-2  justify-items-center gap-3'>
+      <h3 className='pb-4 grid-cols-1 text-center'>Payment method</h3>
+        <div className='grid grid-cols-1  justify-items-center gap-3'>
           <div className='col-span-1'>
             <img
               loading='lazy'
@@ -175,7 +175,7 @@ const PaymentMethod: React.FC<Props> = ({ passengerInfo, isDisplaySaveButton, bo
               Pay with VNPay
             </LoadingButton>
           </div>
-          <div className='col-span-1'>
+          {/* <div className='col-span-1'>
             <img
               loading='lazy'
               src='/assets/images/meta-mask-fox.png'
@@ -191,7 +191,7 @@ const PaymentMethod: React.FC<Props> = ({ passengerInfo, isDisplaySaveButton, bo
             >
               Pay with Meta Mask
             </LoadingButton>
-          </div>
+          </div> */}
         </div>
       </div>
       <Backdrop

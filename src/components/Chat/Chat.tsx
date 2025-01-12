@@ -16,7 +16,7 @@ const Chat: React.FC = () => {
   const [input, setInput] = useState<string>("");
   const [isTyping, setIsTyping] = useState<boolean>(false);
   const [darkTheme, setDarkTheme] = useState<boolean>(false);
-  const [isChatVisible, setIsChatVisible] = useState<boolean>(true); // State for chat visibility
+  const [isChatVisible, setIsChatVisible] = useState<boolean>(false); // State for chat visibility
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
 
   const scrollToBottom = () => {
