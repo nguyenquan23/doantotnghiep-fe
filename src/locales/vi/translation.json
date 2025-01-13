@@ -212,7 +212,7 @@
       "hereAreDefault": "Đây là tên địa điểm mặc định, bạn có thể thay đổi tên này bằng cách chỉnh sửa trên các trường nhập và nhấn nút 'Lưu'"
     },
     "bookingManagement": {
-      "bookingManagement": "Quản lý đặt tourtour",
+      "bookingManagement": "Quản lý đặt tour",
       "noBooking": "Không có dữ liệu đặt chỗ."
     },
     "scheduleManagement": {
@@ -390,7 +390,7 @@
   },
   "components": {
     "profileMenu": {
-      "becomeAGuide": "Trở thành hướng dẫn viên",
+      "becomeAGuide": "Ứng tuyển thành hướng dẫn viên",
       "signIn": "Đăng nhập",
       "signUp": "Đăng ký",
       "settings": "Cài đặt",
