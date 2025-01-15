@@ -251,15 +251,15 @@
       "invoice": "Hóa đơn",
       "email": "Email",
       "phoneNumber": "Số điện thoại",
-      "refund": "Hoàn tiền",
-      "REFUNDED": "Đã hoàn tiền",
+      "refund": "Hủy tour",
+      "REFUNDED": "Đã hủy tour thành công ",
       "viewDetails": "Xem chi tiết",
       "hideDetails": "Ẩn chi tiết",
       "toursInformation": "Thông tin chuyến tham quan",
       "refundSuccessful": "Hoàn tiền thành công",
       "confirmCancel": "Xác nhận hủy",
-      "areYouSure": "Bạn có chắc chắn muốn hủy và hoàn tiền chuyến tham quan này không?",
-      "refundFail": "Hủy và hoàn tiền không thành công."
+      "areYouSure": "Bạn có chắc chắn muốn hủy chuyến tham quan này không?",
+      "refundFail": "Hủy tour không thành công kiểm tra lại thơi gian chuyến đi."
     },
     "bookings": {
       "myBookings": "Các đơn booking của tôi",
