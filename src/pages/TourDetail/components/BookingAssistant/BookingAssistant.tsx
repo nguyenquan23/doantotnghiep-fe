@@ -4,11 +4,11 @@ import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined
 import Button from '@mui/material/Button'
 import OutlinedInput from '@mui/material/OutlinedInput'
 import { DatePicker } from '@mui/x-date-pickers/DatePicker'
-import { useQuery } from '@tanstack/react-query'
+// import { useQuery } from '@tanstack/react-query'
 import dayjs from 'dayjs'
 import isSameOrBefore from 'dayjs/plugin/isSameOrBefore'
 import { Controller, useForm } from 'react-hook-form'
-import scheduleApi from 'src/apis/schedule.api'
+// import scheduleApi from 'src/apis/schedule.api'
 import { bookingSchema } from 'src/utils/rules'
 import { BookingAssistantFormData } from '../../TourDetail'
 import { useTranslation } from 'react-i18next'
@@ -23,7 +23,7 @@ interface BookingAssistantProps {
   limitTraveler: number
 }
 
-const BookingAssistant: React.FC<BookingAssistantProps> = ({ onSubmit, id, limitTraveler }: BookingAssistantProps) => {
+const BookingAssistant: React.FC<BookingAssistantProps> = ({ onSubmit, limitTraveler }: BookingAssistantProps) => {
   const { t } = useTranslation()
   const {
     trigger,
@@ -36,19 +36,18 @@ const BookingAssistant: React.FC<BookingAssistantProps> = ({ onSubmit, id, limit
     },
     resolver: yupResolver(bookingFormSchema)
   })
+  // const { data: busySchedulesQuery } = useQuery({
+  //   queryKey: [`Get busy schedules of tour ${id}`, id],
+  //   queryFn: () => scheduleApi.getBusySchedulesOfTour(id),
+  //   enabled: id !== 0
+  // })
 
-  const { data: busySchedulesQuery } = useQuery({
-    queryKey: [`Get busy schedules of tour ${id}`, id],
-    queryFn: () => scheduleApi.getBusySchedulesOfTour(id),
-    enabled: id !== 0
-  })
-
-  const checkBusyDate = (date: Date) => {
-    if (busySchedulesQuery?.data.data) {
-      return busySchedulesQuery.data.data.some((busyDate) => dayjs(date).isSame(busyDate, 'day'))
-    }
-    return false
-  }
+  // const checkBusyDate = (date: Date) => {
+  //   if (busySchedulesQuery?.data.data) {
+  //     return busySchedulesQuery.data.data.some((busyDate) => dayjs(date).isSame(busyDate, 'day'))
+  //   }
+  //   return false
+  // }
 
   return (
     <form
@@ -92,7 +91,7 @@ const BookingAssistant: React.FC<BookingAssistantProps> = ({ onSubmit, id, limit
             <DatePicker
               className='rounded-sm'
               disablePast={true}
-              shouldDisableDate={checkBusyDate}
+              // shouldDisableDate={checkBusyDate}
               onChange={(date) => {
                 field.onChange(date)
                 trigger('startDate')
