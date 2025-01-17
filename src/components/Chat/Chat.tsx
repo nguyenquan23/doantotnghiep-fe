@@ -36,7 +36,7 @@ const Chat: React.FC = () => {
     setIsTyping(true);
 
     try {
-      const response = await fetch("https://73af-42-1-99-74.ngrok-free.app/chat", {
+      const response = await fetch("https://ed09-42-1-99-74.ngrok-free.app/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
